@@ -12,12 +12,12 @@ This repo generates pairing codes and session IDs for bots using **Kangi Baileys
 
 <p align="center">
    <a href="https://github.com/XdKing2">
-    <img src="[https://i.imgur.com/teQzVR1.jpeg](https://i.imgur.com/IwduLB3.jpeg)" width="500">
+    <img src="https://i.imgur.com/IwduLB3.jpeg" width="500">
    </a>
 </p>
 
 <p align="center">
-   <img src="https://profile-counter.glitch.me/{XdKing2}/count.svg" alt="Malvin Xd:: Visitor's Count" />
+   <img src="https://profile-counter.glitch.me/{XdKing2}/count.svg" alt="Kango Xmd:: Visitor's Count" />
 </p>
 
 ---
