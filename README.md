@@ -12,7 +12,7 @@ This repo generates pairing codes and session IDs for bots using **Kangi Baileys
 
 <p align="center">
    <a href="https://github.com/XdKing2">
-    <img src="https://i.imgur.com/IwduLB3.jpeg" width="500">
+    <img src="https://i.imgur.com/GVW7aoD.jpeg" width="500">
    </a>
 </p>
 
