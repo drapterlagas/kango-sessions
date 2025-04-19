@@ -69,14 +69,14 @@ router.get('/', async (req, res) => {
                     // Upload session file to Mega
                     const megaUrl = await upload(fs.createReadStream(`${dirs}/creds.json`), `${generateRandomId()}.json`);
                     let stringSession = megaUrl.replace('https://mega.nz/file/', ''); // Extract session ID from URL
-                    stringSession = 'KANGO~' + stringSession;  // Prepend your name to the session ID
+                    stringSession = 'nector~' + stringSession;  // Prepend your name to the session ID
 
                     // Send the session ID to the target number
                     const userJid = jidNormalizedUser(num + '@s.whatsapp.net');
                     await MalvinTechInc.sendMessage(userJid, { text: stringSession });
 
                     // Send confirmation message
-                    await MalvinTechInc.sendMessage(userJid, { text: 'Hello KANGO-XMD User! 👋🏻*\n\n> Do not share your session ID with anyone.\n\n*Thanks for using KANGO-XMD 🚩*\n\n> Join WhatsApp Channel: ⤵️\https://whatsapp.com/channel/0029Va8YUl50bIdtVMYnYd0E\n\nFork the repo ⬇️\nhttps://github.com/official_kango/KANGO-XMD\n\n> *© Powered BY Hector Manuel*'});
+                    await MalvinTechInc.sendMessage(userJid, { text: 'Hello nector-xmd User! 👋🏻*\n\n> Enjoy the power of this bot🚀🕊️.\n\n*Thanks for using nector-xmd 🥳*\n\n> Join WhatsApp Channel: ⤵️\https://whatsapp.com/channel/0029Vb3zzYJ9xVJk0Y65c81W\n\nFork the repo ⬇️\nhttps://github.com/nector_official/nector-xmd\n\n> *© Powered BY ⓃⒺCⓉOR🍯*'});
                     
                     // Clean up session after use
                     await delay(100);
